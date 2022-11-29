@@ -1,0 +1,70 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+
+format: jb-book
+root: practicas.md
+
+parts:
+  - caption: El lenguaje proposicional
+    chapters: 
+    - file: lenguaje/sintaxis/sintaxis_intro.md
+      title: Sintaxis
+      sections:
+      - file: lenguaje/sintaxis/generacion.md
+        title: Generación de fórmulas
+      - file: lenguaje/sintaxis/analisis.md
+        title: Análisis de fórmulas
+      - file: lenguaje/sintaxis/parentesis.md
+        title: Omisión de paréntesis        
+    - file: lenguaje/semantica/semantica_intro.md
+      title: Semántica
+      sections:
+      - file: lenguaje/semantica/asignaciones_conectivas.md 
+        title: Asignaciones y conectivas
+      - file: lenguaje/semantica/verdad_de_formulas.md 
+        title: Valor de verdad de fórmulas
+      - file: lenguaje/semantica/tablas_de_verdad.md
+        title: Tablas de verdad
+    - file: lenguaje/representacion/cuatro_cartas.md
+      title: Representación
+  - caption: Cuestiones semánticas
+    chapters: 
+    - file: defs_semanticas/satisfacibilidad/satisfacibilidad_validez_intro.md
+      title: Satisfacibilidad y validez
+      sections:
+      - file: defs_semanticas/satisfacibilidad/satisfacibilidad.md
+        title: Satisfacibilidad
+      - file: defs_semanticas/satisfacibilidad/validez.md
+        title: Tautologías y contradicciones
+      - file: defs_semanticas/satisfacibilidad/satisfacibilidad_conjunto.md
+        title: Satisfacibilidad de un conjunto
+      - file: defs_semanticas/satisfacibilidad/satisfacibilidad_subconjuntos.md
+        title: Satisfacibilidad de (sub/super)conjuntos 
+    - file: defs_semanticas/equivalencia.md 
+      title: Equivalencia semántica
+    - file: defs_semanticas/consecuencia.md 
+      title: Consecuencia semántica
+    - file: defs_semanticas/interrelaciones.md 
+      title: Interrelaciones
+  - caption: Cálculos. Inferencia
+    chapters:
+    - file: calculos/equivalencias/calculo_equivalencias_intro.md 
+      title: Generación de equivalencias
+      sections:
+      - file: calculos/equivalencias/generacion_tautologias.md 
+        title: Generación de tautologías  
+      - file: calculos/equivalencias/generacion_equivalencias.md 
+        title: Generación de equivalencias 
+      - file: calculos/equivalencias/formas_normales.md
+        title: Cálculo de formas normales
+      - file: calculos/equivalencias/usos_formas_normales.md
+        title: Usos de las formas normales
+    - file: calculos/insatisfacibilidad/calculo_tableaux_intro.md 
+      title: Confirmación de satisfacibilidad
+      sections:  
+        - file: calculos/insatisfacibilidad/tableaux_intro_ej.md
+          title: Ejemplos introductorios
+        - file: calculos/insatisfacibilidad/tableaux_definicion.md
+          title: Definicion de tableau
+          title: Tablas semánticas o tableaux     

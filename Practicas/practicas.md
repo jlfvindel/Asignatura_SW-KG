@@ -1,4 +1,30 @@
-# Lógica Proposicional
+# Prácticas SW-KG
+Prácticas de la asignatura *"Web Semántica y Enlazado de Datos"*, asignatura optativa del *"Máster Universitario en Investigación en Inteligencia Artificial"* de la UNED.
+
+
+## Líneas de trabajo
+Se consideran tres líneas de trabajo: 
+1. Recopilación, administración y explotación de grafos RDF/RDFS.
+2. Declaración y uso de ontologías OWL.
+3. Recopilación, administración y explotación de grafos de conocimiento.
+
+
+Configuraciones de trabajo
+
+Consultas externas
+
+Ontologías OWL
+Protégé
+
+KG
+
+
+Configuración
+Datos de entrada
+Ejecución
+Entrega
+
+
 
 ## Contexto
 
