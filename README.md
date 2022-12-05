@@ -1,7 +1,9 @@
 # Asignatura_SW-KG
 
-*Asignatura "Web Semántica y Enlazado de Datos".* 
-Máster Universitario en Investigación en Inteligencia Artificial. 
+*Asignatura "Web Semántica y Enlazado de Datos".*
+
+Máster Universitario en Investigación en Inteligencia Artificial.
+ 
 UNED.
 
 Colección de cuadernos Jupyter:
